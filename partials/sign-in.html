@@ -1,0 +1,8 @@
+<div ng-show="sign-in.length">
+  <h1> Please sign in</h1>
+  <ul>
+    <li ng-repeat="item in sign-in">
+      <a ui-sref="sign-in.studentHere({ studentId: item.id })">{{ item.name }}</a>
+    </li>
+  </ul>
+</div>
