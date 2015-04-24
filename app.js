@@ -6,10 +6,10 @@ classRoster.config(function($stateProvider) {
     templateUrl: "partials/home.html"
   });
 
-  $stateProvider.state('sign-in', {
-    url:"/sign-in",
-    templateUrl: "partials/sign-in.html",
-    controller: 'SignInCtrl'
-  });
+  $stateProvider.state('sign-ins', {
+  url: "/sign-ins",
+  templateUrl: "partials/sign-ins.html",
+  controller: 'StudentsCtrl'
+});
 
 });
