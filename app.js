@@ -12,4 +12,12 @@ classRoster.config(function($stateProvider) {
   controller: 'StudentsCtrl'
 });
 
+  $stateProvider.state('whoIsHere', {
+    url:"/whoIsHere",
+    templateUrl: "partials/whoIsHere.html",
+    controller: 'StudentsCtrl'
+  });
+
+
+
 });

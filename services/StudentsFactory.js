@@ -6,6 +6,8 @@ classRoster.factory('StudentsFactory', function StudentsFactory() {
   { name: "Ryan Samuels", signIn:false },
   { name: "Brentwood Davis", signIn:false }];
 
+
+
   return factory;
 
 });
