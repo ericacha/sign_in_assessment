@@ -1,5 +1,5 @@
 classRoster.controller('StudentsCtrl', function StudentsCtrl($scope) {
-  $scope.students = [
+  $factor.students = [
     { name: "Sam Schmidt" },
     { name: "Jessica Martin" },
     { name: "Sandy Smith" },
