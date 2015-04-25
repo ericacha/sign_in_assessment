@@ -11,3 +11,5 @@ classRoster.factory('StudentsFactory', function StudentsFactory() {
   return factory;
 
 });
+
+// how to add method to click who signed-in? 
