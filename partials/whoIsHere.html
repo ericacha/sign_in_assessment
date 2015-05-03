@@ -6,8 +6,8 @@
 
         <h2>Here</h2>
         <ul>
-          <li ng-repeat="item in students">
-            {{item.name}} <button name="button"> <a ng-click="StudentsFactory.whoIsHere(item)">Sign-In</a></button>
+          <li ng-repeat="item in filteredStudents= (students | filter:{present:true} | orderBy:'name')">
+            {{item.name}}
           </li>
         </ul>
       </div>
@@ -15,8 +15,8 @@
 
         <h2>Not Here</h2>
         <ul>
-          <li ng-repeat="item in students">
-            {{item.name}} <button name="button"> <a ng-click="StudentsFactory.whoIsHere(item)">Sign-In</a></button>
+          <li ng-repeat="item in filteredStudents= (students|filter:{present:false} | orderBy:'name')">
+            {{item.name}}
           </li>
         </ul>
       </div>
