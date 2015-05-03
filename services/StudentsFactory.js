@@ -1,6 +1,6 @@
 classRoster.factory('StudentsFactory', function StudentsFactory() {
   var factory = {};
-  factory.students = [{ name: "Sam Schmidt", pressent: false },
+  factory.students = [{ name: "Sam Schmidt", present: false },
   { name: "Jessica Martin",present: false },
   { name: "Sandy Smith", present: false },
   { name: "Ryan Samuels", present:false },
